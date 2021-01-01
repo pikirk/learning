@@ -27,9 +27,9 @@ resource "aws_security_group" "prod_web"{
         cidr_blocks = ["0.0.0.0/0"]
     }
     egress {
-        from_port = 0
-        to_port    = 0
-        protocol   = "-1"
+        from_port   = 0
+        to_port     = 0
+        protocol    = "-1"
         cidr_blocks = ["0.0.0.0/0"]
     }
 
@@ -39,7 +39,7 @@ resource "aws_security_group" "prod_web"{
 }
 
 resource "aws_instance" "prod_web" {
-    ami = "ami-0527edca851734058"
+    ami           = "ami-0527edca851734058"
     instance_type = "t2.nano"
 
     vpc_security_group_ids = [
