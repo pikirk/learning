@@ -1,0 +1,3 @@
+RunDate,LoadType,ETLStartDate,ETLEndDate,Source,AvailableRows,Target,StartTime,InsertedRows,CompletedAt,LoadStatus
+2.02E+11,STAGE,2021-03-16:00:10:02,2021-03-16:00:42:54,/vis/dmps/foo.csv,1,rpt_excluded_account,00:12:03,0,00:12:04,
+2.02E+11,STAGE,2021-03-16:00:10:02,2021-03-16:00:42:54,/vis/dmps/foo.csv,99,rpt_excluded_account,00:12:03,0,00:12:04,
